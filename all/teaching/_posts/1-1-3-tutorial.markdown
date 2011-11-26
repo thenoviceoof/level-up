@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publish a tutorial
-status: todo
+status: done
 time: Not started
 ---
 
