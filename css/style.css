@@ -19,6 +19,10 @@
     display:none;
 }
 
+.todo article {
+    display:none;
+}
+
 time {
     display:inline-block;
     margin:0.2em;
