@@ -16,7 +16,7 @@ Hence, this project.
 
 USAGE
 --------------------------------------------------------------------------------
- * fork
+ * fork this repo
  * enable github pages
    * hit the admin button on your 
    * you'll probably want to `git branch -D gh-pages`

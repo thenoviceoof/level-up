@@ -64,6 +64,7 @@ header {
 }
 
 header h1 {
+    display:inline-block;
     margin:0.2em;
     font:bold 2em sans-serif;
 }
@@ -71,6 +72,11 @@ header h1 {
 header h2 {
     margin-left:1.0em;
     font:italic 1.0em sans-serif;
+}
+
+#getitwhilehot {
+    display:block;
+    float:right;
 }
 
 /* body ---------------------------------------- */
