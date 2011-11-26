@@ -20,3 +20,8 @@ USAGE
 
  * fork
  * enable github pages
+ * change the first 5 lines of index.html
+ * edit the files under all/
+   * each file corresponds to a single entry
+   * the three states are [todo, wip, done]
+   * the entries are named in reverse display order
