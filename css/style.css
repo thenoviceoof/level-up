@@ -5,13 +5,22 @@
     border-left:3px solid #FF0000;
 }
 
+.wip {
+    background:#FFFFD9 url("../img/wip.png") no-repeat 99.6% 3px;
+    border-left:3px solid #FFFF00;
+}
+
 .done {
-    background-color:#F0FFF0;
+    background:#F0FFF0 url("../img/check.png") no-repeat 99.6% 3px;
     border-left:3px solid #00FF00;
 }
 
 .todo time {
     display:none;
+}
+
+.wip time:before {
+    content:"Last Updated: ";
 }
 
 .done time {
@@ -21,6 +30,10 @@
     background-color:#F0F0F0;
     border:1px solid #D0D0D0;
     border-radius:6px;
+}
+
+.done time:before {
+    content:"Finished: ";
 }
 
 /* header ---------------------------------------- */

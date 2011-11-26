@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bob
+url: http://example.com
 ---
 
 <div>
@@ -8,7 +9,7 @@ title: Bob
   {% for post in site.categories.paradigms %}
   <div class="{{ post.status }}">
     <h2>{{ post.title }}</h2>
-    <time>Finished: {{ post.finished }}</time>
+    <time>{{ post.time }}</time>
     <article>
       {{ post.content }}
     </article>
