@@ -1,6 +1,6 @@
 ---
 layout: post
 title: Write an application in a functional language
-status: wip
-time: whenever
+status: todo
+time:
 ---

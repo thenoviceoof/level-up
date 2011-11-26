@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Write a program in assembly language
-status: done
-time: 2011/8/20
+status: todo
+time: Not started
 ---
-
-Hello world
