@@ -2,5 +2,5 @@
 layout: post
 title: Publish a tutorial
 status: todo
-finished: _
+time: Not started
 ---

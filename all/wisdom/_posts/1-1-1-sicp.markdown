@@ -2,5 +2,5 @@
 layout: post
 title: Read SICP and complete all the exercises
 status: todo
-finished: _
+time: Not started
 ---

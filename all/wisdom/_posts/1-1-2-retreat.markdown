@@ -2,5 +2,5 @@
 layout: post
 title: Attend a code retreat
 status: todo
-finished: _
+time: Not started
 ---

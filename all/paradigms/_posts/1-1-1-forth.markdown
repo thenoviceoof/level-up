@@ -2,5 +2,5 @@
 layout: post
 title: Write an application in Forth [C]
 status: todo
-finished: _
+time: Not started
 ---

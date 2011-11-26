@@ -2,5 +2,5 @@
 layout: post
 title: Deliver a training course
 status: todo
-finished: _
+time: Not started
 ---

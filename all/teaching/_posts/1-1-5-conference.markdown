@@ -2,5 +2,5 @@
 layout: post
 title: Present at a conference
 status: todo
-finished: _
+time: Not started
 ---

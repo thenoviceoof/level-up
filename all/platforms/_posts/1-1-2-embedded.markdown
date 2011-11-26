@@ -2,5 +2,5 @@
 layout: post
 title: Write an embedded app
 status: todo
-finished: _
+time: Not started
 ---

@@ -2,5 +2,5 @@
 layout: post
 title: Write a nontrivial mobile app
 status: todo
-finished: _
+time: Not started
 ---

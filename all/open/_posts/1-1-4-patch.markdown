@@ -2,5 +2,5 @@
 layout: post
 title: Have a patch accepted
 status: todo
-finished: _
+time: Not started
 ---

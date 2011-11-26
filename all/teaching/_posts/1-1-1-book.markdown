@@ -2,5 +2,5 @@
 layout: post
 title: Write a programming book
 status: todo
-finished: _
+time: Not started
 ---

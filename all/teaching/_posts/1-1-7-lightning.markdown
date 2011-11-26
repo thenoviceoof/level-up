@@ -2,5 +2,5 @@
 layout: post
 title: Present a lightning talk
 status: todo
-finished: _
+time: Not started
 ---
