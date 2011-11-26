@@ -4,14 +4,16 @@ title: Bob
 ---
 
 <div>
-<h1>Learn a variety of programming paradigms:</h1>
-{% for post in site.categories.paradigms %}
-<div class="{{ post.status }}">
-<h2>{{ post.title }}</h2>
-<time>{{ post.finished }}</time>
-{{ post.content }}
-</div>
-{% endfor %}
+  <h1>Learn a variety of programming paradigms:</h1>
+  {% for post in site.categories.paradigms %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>Finished: {{ post.finished }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
 </div>
 
 <div>

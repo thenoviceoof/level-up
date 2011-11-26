@@ -1,15 +1,26 @@
 /* status ---------------------------------------- */
 
 .todo {
-    background-color:#FFE0E0;
+    background-color:#FFF0F0;
+    border-left:3px solid #FF0000;
 }
 
 .done {
-    background-color:#E0FFE0;
+    background-color:#F0FFF0;
+    border-left:3px solid #00FF00;
 }
 
 .todo time {
     display:none;
+}
+
+.done time {
+    display:inline-block;
+    margin:0.2em;
+    padding:0.3em;
+    background-color:#F0F0F0;
+    border:1px solid #D0D0D0;
+    border-radius:6px;
 }
 
 /* header ---------------------------------------- */
@@ -47,7 +58,14 @@ header h2 {
 /* body ---------------------------------------- */
 
 #body {
-    margin:0 5%;
+    max-width:50em;
+    width:%80;
+    margin:0 auto;
+    text-align:center;
+}
+
+#body * {
+    text-align:left;
 }
 
 /* section headings */
@@ -71,4 +89,9 @@ header h2 {
 #body > div > div {
     margin:0.8em;
     padding:0.5em;
+}
+
+article p {
+    margin:0.5em;
+    text-indent:0.5em;
 }
