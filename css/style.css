@@ -109,3 +109,28 @@ article p {
     margin:0.5em;
     text-indent:0.5em;
 }
+
+/* footer ---------------------------------------- */
+
+footer {
+    margin:0 auto;
+    text-align:center;
+    color:#555;
+}
+
+footer a {
+    color:#555;
+}
+
+footer a:visited {
+    color:#888;
+}
+
+footer li {
+    display:inline-block;
+    padding:0 1em;
+}
+
+footer li + li {
+    border-left:1px solid #DDD;
+}

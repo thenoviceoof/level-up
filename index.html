@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bob
+title: YOUR NAME HERE
 url: http://example.com
 ---
 
@@ -18,56 +18,66 @@ url: http://example.com
 </div>
 
 <div>
-<h1>Experience the ins and outs of programming for different platforms:</h1>
-{% for post in site.categories.platforms %}
-<div class="{{ post.status }}">
-<h2>{{ post.title }}</h2>
-<time>{{ post.finished }}</time>
-{{ post.content }}
-</div>
-{% endfor %}
-</div>
-
-<div>
-<h1>Enhance your understanding of the building blocks that we use as developers:</h1>
-{% for post in site.categories.building-blocks %}
-<div class="{{ post.status }}">
-<h2>{{ post.title }}</h2>
-<time>{{ post.finished }}</time>
-{{ post.content }}
-</div>
-{% endfor %}
+  <h1>Experience the ins and outs of programming for different platforms:</h1>
+  {% for post in site.categories.platforms %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>{{ post.time }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
 </div>
 
 <div>
-<h1>Enlighten yourself with koans, katas, and the wisdom of ages:</h1>
-{% for post in site.categories.wisdom %}
-<div class="{{ post.status }}">
-<h2>{{ post.title }}</h2>
-<time>{{ post.finished }}</time>
-{{ post.content }}
-</div>
-{% endfor %}
-</div>
-
-<div>
-<h1>Program in the open:</h1>
-{% for post in site.categories.open %}
-<div class="{{ post.status }}">
-<h2>{{ post.title }}</h2>
-<time>{{ post.finished }}</time>
-{{ post.content }}
-</div>
-{% endfor %}
+  <h1>Enhance your understanding of the building blocks that we use as developers:</h1>
+  {% for post in site.categories.building-blocks %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>{{ post.time }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
 </div>
 
 <div>
-<h1>Learn by teaching others:</h1>
-{% for post in site.categories.teaching %}
-<div class="{{ post.status }}">
-<h2>{{ post.title }}</h2>
-<time>{{ post.finished }}</time>
-{{ post.content }}
+  <h1>Enlighten yourself with koans, katas, and the wisdom of ages:</h1>
+  {% for post in site.categories.wisdom %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>{{ post.time }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
+
+<div>
+  <h1>Program in the open:</h1>
+  {% for post in site.categories.open %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>{{ post.time }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
+</div>
+
+<div>
+  <h1>Learn by teaching others:</h1>
+  {% for post in site.categories.teaching %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>{{ post.time }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
 </div>
