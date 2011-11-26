@@ -1,0 +1,61 @@
+/* status ---------------------------------------- */
+
+.todo {
+    background-color:#FFE0E0;
+}
+
+.done {
+    background-color:#E0FFE0;
+}
+
+.todo time {
+    display:none;
+}
+
+/* header ---------------------------------------- */
+
+body {
+    margin:2%;
+    font-size:16px;
+}
+
+header {
+    margin:0.5em;
+    padding:0.2em;
+    border-bottom:5px solid #DDD;
+}
+
+header h1 {
+    margin:0.2em;
+    font:bold 2em sans-serif;
+}
+
+header h2 {
+    margin-left:0.6em;
+    font:bold 1.4em sans-serif;
+}
+
+/* body ---------------------------------------- */
+
+/* section headings */
+#body h1 {
+    font-size:1.3em;
+    font-weight:bold;
+}
+
+/* entry headings */
+#body h2 {
+    font-size:1.15em;
+    text-decoration:underline;
+}
+
+#body > div {
+    margin:0.7em 0.5em 0.7em 1.5em;
+    padding:0.4em;
+    border-left:3px solid #DDD;
+}
+
+#body > div > div {
+    margin:0.5em;
+    padding:0.5em;
+}
