@@ -14,6 +14,8 @@ self-tracking tool, but it seems to me that like many things,
 
 Hence, this project.
 
+You can see it in action [here](http://thenoviceoof.github.com/level-up/).
+
 USAGE
 --------------------------------------------------------------------------------
  * fork this repo
