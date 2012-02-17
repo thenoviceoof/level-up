@@ -12,7 +12,9 @@ that lets you fork and cross off which ones you've finished, as a sort of
 self-tracking tool, but it seems to me that like many things,
 *the journey is more important than the destination*.
 
-Hence, [this project](http://thenoviceoof.github.com/level-up/).
+Hence, this project.
+
+You can see it in action [here](http://thenoviceoof.github.com/level-up/).
 
 USAGE
 --------------------------------------------------------------------------------
